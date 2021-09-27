@@ -40,7 +40,7 @@ counter = 2
 dist_prime_list = []
 
 for counter in range (1,1000000):
-    if counter % 30 == 0:
+    if counter % 210 == 0:
         dist_prime_list.append(dist_prime(counter))
 # end for
 
